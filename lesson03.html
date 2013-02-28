@@ -1,0 +1,19 @@
+<html>
+<head>
+	<script src="jquery-1.9.1.min.js"></script>
+	<script src="jquery.hammer.js"></script>
+	<script type="text/javascript">
+	$( function() {
+		$('#hoge')
+		    .hammer()
+		    .on('pinchout', function(ev) {
+		        alert('hello!');
+		    });
+	});
+	</script>
+</head>
+<body>
+	<div id="hoge">ABCDEFG
+	</div>
+</body>
+</html>

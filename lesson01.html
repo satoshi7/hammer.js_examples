@@ -1,0 +1,16 @@
+<html>
+<head>
+<script src="hammer.js"></script>
+<style></style>
+</head>
+<body>
+	<div id="hoge">ABCDEFG
+	</div>
+	<script>
+	    var element = document.getElementById('hoge');
+	    var hammertime = Hammer(element).on("tap", function(event) {
+	        alert('hello!');
+	    });
+	</script>
+</body>
+</html>
