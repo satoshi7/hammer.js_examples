@@ -1,0 +1,17 @@
+<html>
+<head>
+	<script src="jquery-1.9.1.min.js"></script>
+	<script src="jquery.hammer.js"></script>
+</head>
+<body>
+	<div id="hoge">ABCDEFG
+	</div>
+	<script>
+		$('#hoge')
+		    .hammer()
+		    .on('tap', function(ev) {
+		        alert('hello!');
+		    });
+	</script>
+</body>
+</html>
